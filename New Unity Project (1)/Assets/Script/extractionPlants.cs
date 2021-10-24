@@ -6,21 +6,12 @@ public class extractionPlants : MonoBehaviour
 {
     public void onClick()
     {
+        private int rand = Random.Range(0, 2);
         if (coinsCounter.coinsCount >= 50 && hoverColor.planting == false)
         {
             hoverColor.planting = true;
         }
         else
         { hoverColor.planting = false; }
-    }
-
-    void OnMouseEnter()
-    {
-        hoverColor.planting = false;
-    }
-
-    void OnMouseExit()
-    {
-        hoverColor.planting = false;
     }
 }
