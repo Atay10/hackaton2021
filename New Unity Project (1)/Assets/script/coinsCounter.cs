@@ -11,7 +11,7 @@ public class coinsCounter : MonoBehaviour
     void Start()
     {
         coinsTextCounter = GetComponent<Text>();
-        coinsCount = 0;
+        coinsCount = 240;
     }
 
     // Update is called once per frame

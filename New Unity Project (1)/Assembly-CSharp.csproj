@@ -53,14 +53,18 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\coinsCounter.cs" />
+    <Compile Include="Assets\Script\flipPerson.cs" />
+    <Compile Include="Assets\Script\triggerEnter.cs" />
     <Compile Include="Assets\TreePack1_Free\Script\SceneTreePack.cs" />
-    <Compile Include="Assets\script\PatrolUP.cs" />
+    <Compile Include="Assets\Script\PatrolUP.cs" />
     <Compile Include="Assets\CharMove.cs" />
     <Compile Include="Assets\TreePack1_Free\Script\TreeControll.cs" />
-    <Compile Include="Assets\script\CustomTile.cs" />
-    <Compile Include="Assets\script\flipPerson.cs" />
-    <Compile Include="Assets\script\coinsCounter.cs" />
-    <Compile Include="Assets\script\triggerEnter.cs" />
+    <Compile Include="Assets\Script\hoverColor.cs" />
+    <Compile Include="Assets\Script\followPath.cs" />
+    <Compile Include="Assets\Script\movingPath.cs" />
+    <Compile Include="Assets\Script\extractionPlants.cs" />
+    <Compile Include="Assets\Script\PlantsData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TreePack1_Free\Read Me.txt" />
